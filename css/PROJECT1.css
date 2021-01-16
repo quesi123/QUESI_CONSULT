@@ -1,0 +1,463 @@
+
+.BAR1{
+    /* position: sticky; */
+    top: 0;
+    z-index:10 ;
+}
+.nav-link{
+    font-weight: bolder;
+    font-size: 15px;
+    color: darkcyan;
+    
+}
+.navbar-nav :hover{
+   border: 3px solid darkcyan;
+   
+    
+
+}
+/* .nav-link :hover{
+    background:transparent;
+    border: 1px solid darkcyan;
+    border-width:1vh;
+} */
+h5{
+    padding-top: 15px;
+    
+}
+.slider{
+    width: 100%;
+}
+/* .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%) ;
+    bottom: initial!important;
+} */
+.carousel-caption h5{
+    color: darkcyan;
+    font-size: 42px;
+}
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.about .btn{
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+.about-content{
+    padding-top: 20px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 20px;
+    font-style: oblique;
+}
+.skills-bar{
+    margin-bottom: 6px;
+    font-weight: 600px;
+    color: darkcyan;
+
+}
+.progress-bar{
+    border-radius: 16px;
+    color: darkcyan;
+
+}
+.progress{
+    border-radius: 16px;
+    margin-bottom: 20px;
+    color: darkcyan;
+
+}
+p{
+    font-weight: bolder;
+}
+.hover :hover{
+    background: #333;
+    
+
+}
+.services{
+    /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(photos/.services.jpg); */
+    background-size: cover;
+    background-position: center;
+    color:darkcyan!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 1.5;
+    
+}
+.services h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-decoration: underline overline;
+}
+.services  h1 ::after {
+    content: '';
+    background: darkcyan;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+#services{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid darkcyan;
+    border-radius: 50%;
+}
+.services h3{
+   font-weight: bolder;
+   font-style: italic;
+}
+.services p{
+    font-size: 17px;
+    margin-top: 20px;
+    color:  darkcyan;
+    font-weight: bold;
+}
+
+.team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.ntH1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-decoration: underline overline;
+    margin-top: -40px;
+    color: darkcyan;
+}
+.name{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-style: italic;
+    color: darkcyan;
+
+
+
+}
+.founder{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 15px;
+    color: black;
+}
+.p1{
+    font-size: 15px;
+    margin-top:2px ;
+    color: black;
+}
+.black{
+    color: black;
+}
+.proflie-pic{
+    margin-top: 25px;
+
+}
+.proflie-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+
+}
+.proflie-pic .img-box img{
+    filter: grayscale(1);
+    cursor: pointer;
+    
+}
+.team .fa{
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    border-radius: 50%;
+
+}
+.img-box ul{
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 24vh;
+}
+.btn-primary > h5{
+    text-align: center;
+}
+#promo{
+    background-size: cover;
+    background-position: center;
+    color:darkcyan!important;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 50px;
+    opacity:0.9 ;
+} 
+.price{
+    padding: 40px;
+    background: #efefef;;
+}
+.single-price{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color:white;
+    transition: 0.5s;
+    text-align: center;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head{
+    background-color: darkcyan;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+
+}
+.price-head h2{
+    color:#7DC4C4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+.price-head p{
+    font-size: 25px;
+    color: #7DC4C4;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.price span{
+    font-size: 15px;
+}
+.price-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 8px;
+}
+.price-content ul li{
+    border-bottom: 1px solid darkcyan;
+    padding: 10px 15px;
+    list-style: none ;
+}
+ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+
+
+}
+.fa-times-circle{
+
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    width: 100%;
+
+}
+.buy-btn{
+    background-color: darkcyan;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* .buy-btn :hover{
+    border-color: #7DC4C4;
+    background-color: #333 ;
+    background: blue!important;
+} */
+a{
+    
+    color:#7DC4C4!important;
+    
+} 
+.testimonials .row{
+    margin-top: 30px;
+
+}
+.col-md-4{
+    margin: 40px auto;
+    
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color:lavender;
+    
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+
+}
+.proflie h3{
+    font-size: 10px;
+    margin-top: 15px;
+    color: darkcyan;
+}
+.testimonials span{
+    font-size: 12px;
+    color: #007bff;
+
+}
+.blockquote{
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+    
+}
+.col-md-4:hover{
+    box-shadow: 0 0 15px 5px #333;
+}
+.contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom:40px;
+    color: darkcyan;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none!important;
+}
+::placeholder{
+    color: #999 !important ;
+}
+.follow{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+    color: #999;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: darkcyan;
+    font-weight: bold;
+}
+.footer{
+    background: darkslategray;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o{
+    margin: 3px;
+    color: red;
+
+}
+.test{
+padding-top: 12px;
+color: darkcyan;
+text-align: center;
+font-weight: bolder;
+padding-bottom: 40px;
+text-decoration: underline overline;
+padding-top: -200px;
+}
+.planup{
+    
+    color: darkcyan;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    text-decoration: underline overline;
+    padding-top: -200px;
+    
+}
+.style{
+    font-weight: normal;
+    color: #333333;
+    font-style: oblique;
+}
+.get{
+    margin-top:-25px;
+    color: darkcyan;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    text-decoration: underline overline;
+    padding-top: -200px;
+    
+}
+.foot{
+    font-weight: bolder;
+    font-style: oblique;
+    color: darkcyan;
+    padding-top: 20px;
+    font-size: larger;
+    
+}
+.bold{
+    color: darkcyan;
+}
+.col{
+    margin-left:-200px;
+   
+}
+
+.unique{
+    font-size: 20px;
+    font-style: oblique;
+    color: #333333;
+}
